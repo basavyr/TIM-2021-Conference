@@ -6,6 +6,6 @@ Conference website: [🔗 link](https://timconference.uvt.ro)
 
 ## Deadlines
 
-**Abstract deadline:** 30.10.2021
+**Abstract deadline:** 🗓 30.10.2021
 
-**Conference live event:** 11-13.11.2021
+**Conference live event:** 🗓 11-13.11.2021
