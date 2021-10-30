@@ -1,7 +1,9 @@
 # TIM 2021 Abstract
-## Describing the Wobbling Properties of Odd-A Triaxial Nuclei a Novel Approach
+## A Novel Approach for the Semi-Classical Description of the Wobbling Properties in Odd-$A$ Nuclei
 
 ## Core ideas
 
 - importance of triaxial nuclei in nuclear physics
-- difficu
+- difficulty in identifying the triaxial signatures experimentally
+- new features of the current approach:
+  - parity partner bands in $^{163}$Lu
