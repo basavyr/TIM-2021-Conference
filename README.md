@@ -14,6 +14,6 @@ The wobbling motion in odd-A triaxial nuclei (i.e., nuclei without any symmetry 
 
 ## Deadlines
 
-**Abstract deadline:** 🗓 30.10.2021
+**Abstract deadline:** 🗓 30.10.2021 ✅
 
 **Conference live event:** 🗓 11-13.11.2021
