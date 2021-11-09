@@ -12,20 +12,7 @@
             "file": "Resources/Abstract/abstract.md",
             "mode": "source"
           }
-        },
-        "group": "16612073dc77fb6a"
-      },
-      {
-        "id": "7d0857372d149ab8",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Resources/Abstract/abstract.md",
-            "mode": "preview"
-          }
-        },
-        "group": "16612073dc77fb6a"
+        }
       }
     ],
     "direction": "vertical"
@@ -99,7 +86,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "7d0857372d149ab8",
+  "active": "654961045280dbf5",
   "lastOpenFiles": [
     "Resources/Abstract/abstract.md"
   ]

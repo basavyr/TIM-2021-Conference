@@ -1,4 +1,11 @@
 {
   "spellcheck": true,
-  "showLineNumber": true
+  "showLineNumber": true,
+  "spellcheckDictionary": [
+    "triaxial",
+    "variational",
+    "eigenfunctions",
+    "quantal",
+    "triaxiality"
+  ]
 }
