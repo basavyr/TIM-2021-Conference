@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Resources/Abstract/abstract.md",
+            "file": "Resources/Presentation-Notes/structure.md",
             "mode": "source"
           }
         }
@@ -52,7 +52,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "3b43b56682cc6b01",
@@ -68,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resources/Abstract/abstract.md",
+                "file": "Resources/Presentation-Notes/structure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +89,7 @@
   },
   "active": "654961045280dbf5",
   "lastOpenFiles": [
+    "Resources/Presentation-Notes/structure.md",
     "Resources/Abstract/abstract.md"
   ]
 }
