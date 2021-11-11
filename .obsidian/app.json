@@ -6,6 +6,8 @@
     "variational",
     "eigenfunctions",
     "quantal",
-    "triaxiality"
+    "triaxiality",
+    "prolate",
+    "quadrupole"
   ]
 }
