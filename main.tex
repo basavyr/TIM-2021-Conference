@@ -1,5 +1,7 @@
 \documentclass{beamer}
 
+\setbeamertemplate{caption}[numbered]
+
 \mode<presentation> {
 \usetheme{Madrid}
 }
@@ -46,7 +48,7 @@ Nuclear shapes can be described via the \textbf{quadrupole parameter} $\beta$ an
     \centering
     \includegraphics[scale=0.5]{figs/beta_gamma_plane.png}
     \caption{The $(\beta,\gamma$) plane divided into six equivalent parts.}
-    \label{fig:betagamma}
+    \label{betagamma}
 \end{figure}
 \end{frame}
 
@@ -58,10 +60,11 @@ Nuclear shapes: most of the nuclei are spherical or axially symmetric in the gro
     \caption{\textbf{Spherical:} $\beta_2=0$ ; \textbf{Prolate:} $\beta_2>0$ ; \textbf{Oblate:} $\beta_2<0$}
   \end{figure}
   \begin{block}{Triaxial shapes}
-       There are also deviations from \emph{axial symmetric shapes} $\to$ \textbf{triaxial shapes} (e.g. no symmetry axis). The three PA's have different lengths (asymmetry between the MOIs).
+       There are also deviations from \emph{axial symmetric shapes} $\to$ \textbf{triaxial shapes} (e.g. no symmetry axis). The three PA's have different lengths.
   \end{block}
 \end{frame}
 
+\begin{frame}{Wobbling motion}
 \begin{columns}
     \begin{column}{0.5\textwidth}
     \begin{block}{Wobbling motion (WM)}
@@ -85,6 +88,27 @@ Nuclear shapes: most of the nuclei are spherical or axially symmetric in the gro
   \end{column}
   \end{columns}
 \end{frame}
+
+\begin{frame}{Wobbling motion}
+  \begin{columns}
+    \begin{column}{0.47\textwidth}
+    \begin{block}{Triaxial nuclei}
+    The rotational angular momentum is NOT aligned along any of the body-fixed axes: it \textbf{precesses} and \textbf{wobbles} around the axes with the largest MOI. 
+    \end{block}
+  \begin{block}{Wobbling bands}
+  Sequences of $\Delta I=2\hbar$ rotational bands that are built on different \textit{wobbling phonon excitations}.
+  \end{block}
+    \end{column}
+    \begin{column}{0.53\textwidth}  %%<--- here
+   \begin{figure}
+     \centering
+     \includegraphics[scale=0.15]{figs/wobblingBands.png}
+     \caption{Rotational-band structures of the wobbling motion.}
+   \end{figure}
+    \end{column}
+    \end{columns}
+\end{frame}
+
 
 
 % \begin{frame}
