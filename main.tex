@@ -4,10 +4,11 @@
 \usetheme{Madrid}
 }
 
-\usepackage{amsmath}
 \usepackage{graphicx} % Allows including images
-\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
-
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables}
+\usepackage{amsmath}
+\usepackage{xcolor}
+\usepackage{physics}
 %----------------------------------------------------------------------------------------
 %	TITLE PAGE
 %----------------------------------------------------------------------------------------
@@ -18,7 +19,8 @@
 \institute[DFT] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
 {
 Department of Theoretical Physics, IFIN-HH \\
-Doctoral School of Physics, UB \\% Your institution for the title page
+\vspace{0.1cm}
+Faculty of Physics, University of Bucharest \\% Your institution for the title page
 \medskip
 \textit{robert.poenaru@drd.unibuc.ro} % Your email address
 }
@@ -44,6 +46,11 @@ Doctoral School of Physics, UB \\% Your institution for the title page
     \item Nuclear shapes can be described via the \textbf{quadrupole parameter} $\beta$ and the \textbf{triaxiality parameter} $\gamma$.
 \end{itemize}
 \end{block}
+  \begin{figure}
+    \centering
+    \includegraphics[scale=0.4]{figs/nuclear_shapes.png}
+    \caption{\textbf{Spherical:} $\beta_2=0$ ; \textbf{Prolate:} $\beta_2>0$ ; \textbf{Oblate:} $\beta_2<0$}
+  \end{figure}
 \end{frame}
 
 \begin{frame}
