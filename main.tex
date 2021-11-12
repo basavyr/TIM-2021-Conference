@@ -111,11 +111,12 @@ Nuclear shapes: most of the nuclei are spherical or axially symmetric in the gro
   \begin{columns}
     \begin{column}{0.47\textwidth}
     \begin{block}{Triaxial nuclei}
-    The rotational angular momentum is NOT aligned along any of the body-fixed axes: it \textbf{precesses} and \textbf{wobbles} around the axes with the largest MOI. 
+        A triaxial nucleus can rotate about any of the three axes.
+        
+        \vspace{0.3cm}
+        
+        The rotational angular momentum is NOT aligned along any of the body-fixed axes: it \textbf{precesses} and \textbf{wobbles} around the axes with the largest MOI. 
     \end{block}
-  \begin{block}{Wobbling bands}
-  Sequences of $\Delta I=2\hbar$ rotational bands that are built on different \textit{wobbling phonon excitations}.
-  \end{block}
     \end{column}
     \begin{column}{0.53\textwidth}  %%<--- here
 %   \begin{figure}
@@ -134,25 +135,89 @@ Nuclear shapes: most of the nuclei are spherical or axially symmetric in the gro
     \end{columns}
 \end{frame}
 
+\begin{frame}
+\frametitle{Wobbling Bands}
 
+\begin{columns} 
+\column{.5\textwidth} 
+\begin{block}{Wobbling bands}
+  Sequences of $\Delta I=2\hbar$ rotational bands that are built on different \textit{wobbling phonon excitations}.
+  
+\end{block}
 
-% \begin{frame}
-% \frametitle{Multiple Columns}
-% \begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+\begin{exampleblock}{Experimental evidence}
+    $^{163}$Lu has \textbf{four} such wobbling bands, with $n_w=0,1,2,3$ wobbling phonon numbers, respectively.
+\end{exampleblock}
 
-% \column{.45\textwidth} % Left column and width
-% \textbf{Heading}
-% \begin{enumerate}
-% \item Statement
-% \item Explanation
-% \item Example
-% \end{enumerate}
+\column{.5\textwidth}
+\begin{figure}
+     \centering
+     \includegraphics[scale=0.14]{figs/wobblingBands.png}
+     \caption{Rotational-band structures of the wobbling motion.}
+   \end{figure}
+\end{columns}
+\end{frame}
 
-% \column{.5\textwidth} % Right column and width
-% Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lectus nisl, ultricies in feugiat rutrum, porttitor sit amet augue. Aliquam ut tortor mauris. Sed volutpat ante purus, quis accumsan dolor.
+\begin{frame}{Particle-rotor coupling}
+  \begin{block}{Wobbling motion in odd-A nuclei}  
+    \begin{itemize}
+      \item Coupling of a nucleon from a high j-shell with the triaxial rotor core is crucial for the wobbling phenomenon.
+      \item The odd particle’s angular momentum couples to the rotor, driving the nucleus to large deformations and it also stabilizes the shape.
+    \end{itemize}
+  \end{block}
+  \begin{exampleblock}{Odd particle}
+  \begin{itemize}
+      \item For nuclei with $A\approx160$, the odd $\pi i_{13/2}$ is the \emph{intruder} which drive the isotope to very high deformations (up to $n_w=3$ wobbling phonon number).
+      \item The fourth wobbling band in $^{163}$Lu was considered to emerge from the coupling of a core with the $\pi h_{9/2}$ (Jensen et al), $\pi h_{11/2}$ (Frauendorf et al), or even $\pi h_{11/2}$ (Tanabe et al 2006).
+    %   \item For nuclei with $A\approx180$, the odd $\pi h_{9/2}$ and $\pi i_{13/2}$ are the \emph{intruders} which drive the system to very high deformations.
+  \end{itemize}
+  \end{exampleblock}
+\end{frame}
 
-% \end{columns}
-% \end{frame}
+\begin{frame}{Theoretical framework}
+  The odd-mass system consists of an {\color{red}even-even core} (described by a triaxial rotor Hamiltonian {\color{red}$H_\text{rot}$}) and a single {\color{blue}$j$-shell nucleon} described by its single-particle Hamiltonian {\color{blue}$H_\text{sp}$}.
+  \par \textbf{Total system:}
+  \begin{align}
+    &H={\color{red}H_\text{rot}}+{\color{blue}H_\text{sp}}=\\
+&{\color{red}\sum_{k=1,2,3}A_k(I_k-j_k)^2}+{\color{blue}\epsilon_j+\frac{V}{j(j+1)}\left[\cos\gamma(3j_3^2-\mathbf{j}^2)-\sqrt{3}\sin\gamma(j_1^2-j_2^2)\right]}
+  \end{align}
+  \par {\footnotesize \textbf{Solving the Hamiltonian in semi-classical approach for $^{163}Lu$}: \textit{R. Poenaru and A. A. Raduta, International Journal of Modern Physics E, 2150033, 2021}.}
+  \par {\footnotesize \textbf{For $^{135}Pr$}: \textit{A. A. Raduta and R. Poenaru, Journal of Physics G, 015106, 2020}.}
+\end{frame}
+
+\begin{frame}{Energy function - Semiclassical approach}
+      The eigenvalues for $\hat{H}=H_{rot}+H_{sp}$ are obtained by solving the \emph{variational principle}:
+  \begin{align}
+    \delta \int_0^t\bra{\Psi_{IjM}}\hat{H}-i\frac{\partial}{\partial t'}\ket{\Psi_{IjM}}dt'=0. \label{varp}
+  \end{align}
+  The trial function $\ket{\Psi_{IjM}}$ is a direct product $\ket{\psi}_\text{core}\otimes\ket{\phi}_\text{s.p.}$.
+    From Eq. \ref{varp}, one obtains the \emph{classical equations of motion} in the canonical form:
+  \begin{align}
+    \frac{\partial \mathcal{H}}{\partial r}=\dot{\varphi}\ ;\ \frac{\partial\mathcal{H}}{\partial\varphi}=-\dot{r}\\
+    \frac{\partial \mathcal{H}}{\partial t}=\dot{\psi}\ ;\ \frac{\partial\mathcal{H}}{\partial \psi}=-\dot{t}
+  \end{align}
+\end{frame}
+
+\begin{frame}{Semiclassical wobbling energies}
+\begin{block}{Harmonic Frequencies}
+\begin{itemize}
+    \item They represent the harmonic-like behavior of the wobbling motion in odd-A nuclei.
+  \item In our model, the pair of frequencies $({\color{blue}\Omega_1^I},{\color{red}\Omega_{2}^I})$ is associated with the rotational motion of the {\color{blue}core} and the {\color{red}odd particle}, respectively.
+\end{itemize}
+\end{block}
+\begin{alertblock}{Energy spectrum}
+\begin{align}
+    E_I&={\color{cyan}\epsilon_{j}}+{\color{magenta}\mathcal{H}_\text{min}(I)}+\left[{\color{blue}\Omega_1^I\left(n_{w_1}+\frac{1}{2}\right)}+{\color{red}\Omega_2^I\left(n_{w_2}+\frac{1}{2}\right)}\right] \label{wobbling_formula}
+  \end{align} 
+  Terms: {\color{cyan}{single particle energy}}, {\color{magenta}energy in the minimum point} and [harmonic-like motion].
+\end{alertblock}
+\end{frame}
+
+\section{Unique features}
+
+\begin{frame}{Characteristics of the model}
+    
+\end{frame}
 
 % \begin{frame}
 % \frametitle{References}
